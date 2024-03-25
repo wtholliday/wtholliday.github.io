@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Taylor Holliday</title>
+    <meta name="description" content="Website for Taylor Holliday">
+    <meta name="author" content="Taylor Holliday">
+    
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <style>
+
+      .container {
+        max-width: 600px;
+      }
+
+      .image-cropper {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+
+      .rounded-corners {
+        border-radius: 20px;
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+      }
+
+      .header {
+        margin-top: 6rem;
+      }
+
+      .footer {
+        margin-bottom: 6rem;
+      }
+
+      .project {
+        margin: 20px;
+      }
+
+      /* See https://tobiasahlin.com/blog/layered-smooth-box-shadows/ */
+      .shadow {
+        box-shadow: 0 0px 1px rgba(0,0,0,0.12), 
+                    0 0px 2px rgba(0,0,0,0.12), 
+                    0 0px 4px rgba(0,0,0,0.12), 
+                    0 0px 8px rgba(0,0,0,0.12),
+                    0 0px 16px rgba(0,0,0,0.12);
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+    <section class="header">
+    <div class="image-cropper shadow"><img src="img/tay.png" style="width: 100px; height: 100px"> </div>
+
+    <h4>Taylor Holliday</h4>
+    <p>Indie App Developer | Multimedia software engineer</p>
+
+    <p><a href="resume">resume</a></p>
+    </section>
+
+    <h5>Projects</h5>
+
+      <div class="row">
+        <div class="one-half column">
+
+            <div class="project">
+            <b>Audulus</b><br>
+            modular audio app<br>
+            <a href="http://audulus.com"><img src="img/audulus.png" class="rounded-corners shadow"></a>
+            </div>
+        
+        </div>
+        <div class="one-half column">
+            
+            <div class="project">
+            <b>Sculptura</b> <br>
+            3D sculpting app<br>
+            <a href="http://sculptura.app"><img src="img/sculptura.png" class="rounded-corners shadow"></a>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one-half column">
+            
+            <div class="project">
+            <b>vger</b><br>
+            gpu vector graphics library<br>
+            <a href="http://github.com/audulus/vger"><img src="img/vger.png" class="rounded-corners shadow"></a>
+            </div>
+
+        </div>
+        <div class="one-half column">
+            <div class="project">
+            <b>rui</b> <br>
+            rust ui library <br>
+            <a href="http://github.com/audulus/rui"><img src="img/rui.png" class="rounded-corners shadow"></a>
+            </div>
+        </div>
+      </div>
+
+      <section class="footer">
+      
+      </div>
+    
+    </div>
+  </body>
+</html>
